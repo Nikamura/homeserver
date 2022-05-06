@@ -9,10 +9,10 @@
       "name": "SERVER_DOMAIN"
     }
   ],
-  "logo": "https://raw.githubusercontent.com/tomwojcik/homeserver-traefik-portainer/8ee5120e19031d8f02b13e7975f6ccfa015377e8/stacks/registry/logo.png",
+  "logo": "https://raw.githubusercontent.com/Nikamura/homeserver/main/stacks/registry/logo.png",
   "platform": "linux",
   "repository": {
     "stackfile": "stacks/registry/docker-compose.yml",
-    "url": "https://github.com/tomwojcik/homeserver-traefik-portainer"
+    "url": "https://github.com/Nikamura/homeserver"
   }
 }
