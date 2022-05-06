@@ -10,7 +10,7 @@ services:
       - 9000
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - portainer_data:/data
+      - $DATA_DIR/portainer:/data
     env_file:
       - .env
     container_name: portainer
