@@ -31,6 +31,8 @@ services:
       ENV_DOCKER_REGISTRY_PORT: 443
     networks:
       - traefik
+    ports:
+      - "8088:80"
     labels:
       my.zone: homeserver
       traefik.enable: true
